@@ -37,7 +37,7 @@ console = Console(theme=custom_theme)
 
 # 2. Gemini Client
 client = genai.Client(api_key=API_KEY)
-DEFAULT_MODEL_ID = "gemini-2.0-flash-lite-preview-02-05"
+DEFAULT_MODEL_ID = "gemini-2.5-flash-lite"
 
 # 3. Prompt Toolkit Setup
 session = PromptSession(history=InMemoryHistory())
